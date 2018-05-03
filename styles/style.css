@@ -14,67 +14,76 @@
     box-sizing: border-box;
 }}
 
-/*nav {
-    display: block;
-}
-footer {
-    display: block;
-}*/
-
-
-/*About Page*/
+/*Global Settings*/
 
 html { 
   font-size: 20px; 
   font-family: 'Slabo 27px', serif;
-  background-color: LavenderBlush;
+  background-color: #9FAEB3;
   height: 100%;
   width: 100%;
 }
+body {
+    margin-left: 4em;
+    margin-right: 4em;
+}
+header{
+  background-color: white;
+}
+nav {
+  background-color: #333;
+  text-align: center; 
+  padding: 1rem;
+  list-style: none;
+}
 
+nav a{
+  color: white;
+  padding-left: 2rem;
+  padding-right; 2rem;
+  margin-right: 2em;
+}
+.homeimg1 {
+    width:30em;
+    height: 20em;
+    display: inline-flex;
+}
+.homeimg2 {
+    width:30em;
+    height: 20em;
+    display: inline-flex;
+}
+.brand {
+    text-align: left;
+    padding: 1rem;
+    color: black;
+}
+.logo{
+  height: 5em;
+  width: 5em;
+  float: left;
+}
 a:hover {
   color:lightcoral;
   transition: all 2s ease 0s;
 }
-
-.head{
-  display: inline-flex;
+.sidebarimg {
+    height: 10em;
 }
-
-h1{
-  text-align: center;
-  margin: 2rem;
+footer {
+    display: block;
+    text-align: center;
+    padding-left: 1em;
+    color: black;
+    
 }
-
-h2{
-  text-align: center;
-}
+/*About Page*/
 
 h3{
   text-align: right;
   margin:0;
   margin-right:2rem;
 }
-
-header{
-  background-color: PaleTurquoise;
-}
-
-.logo{
-  height: 10%;
-  width: 10%;
-  margin-left:10rem;
-}
-
-p{
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-
-.container{
-  display: inline-flex;
-}
-
 .derek{
   width: 20%;
   height: 30%;
@@ -126,7 +135,16 @@ p{
   margin:1rem;
 }
 
-/*nav {
+/*
+/*p{
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.container{
+  display: inline-flex;
+}
+nav {
   background-color: darkgrey;
   text-align: center; 
   padding: 1rem;
@@ -137,17 +155,17 @@ nav a{
   color: purple;
   padding-left: 2rem;
   padding-right; 2rem;
-}*/
+}
 
 h6 {
   text-align: center;
   margin:0;
   background-color: PaleTurquoise;
-}*/
+}
 
 /*Home page*/
 
-nav {
+/*nav {
   background-color: #333;
   height: 4rem;
   margin: 0;
@@ -181,4 +199,30 @@ section {
 footer p {
   font-size: 0.85rem;
 }
+
+/*html { 
+  font-size: 20px; 
+  font-family: 'Slabo 27px', serif;
+  background-color: LavenderBlush;
+  height: 100%;
+  width: 100%;
+}
+
+a:hover {
+  color:lightcoral;
+  transition: all 2s ease 0s;
+}
+
+.head{
+  display: inline-flex;
+}
+
+h1{
+  text-align: center;
+  margin: 2rem;
+}
+
+h2{
+  text-align: center;
+}*/
 

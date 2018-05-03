@@ -22,31 +22,33 @@
 			.info    { width: 100%;   }
 		}
 		@media only screen and (min-width: 76em) {
-			.content { width: 58.33%; } /* 7/12 */
+			.content { width: 58.33%; } /*  7/12 */
 			.sidebar { width: 41.66%; } /* 5/12 */
 			.info    { width: 50%;    }
 		}
     </style>
 </head> 
 <body>
-    <header>
-    <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="services.html">Classes</a>
-    </nav>    
-    <h2 class="brand">Straight to the Point Archery</h2>
-           
+       <header>
+      <div class="head">
+      <img class ="logo" src ="images/logo.jpg" alt="logo">
+      <h1 class ="brand">Straight to the Point Archery</h1>
+      </div>
+      <h3>Straight to the Point Archery</h3>
+      <h3>528 Nock Point Ln Tacoma, WA 98412</h3>
+      <h3>archery-education@example.com</h3>
+      <h3>(253)555-1010</h3>
     </header>
+    <aside>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Classes</a>
+      </nav>
+      </aside>
 <div class="container">
-
-	<div class="row col">
-		<h1>Services</h1>
-	</div>
-
 	<div class="row">
 		<div class="col content">
-			<section class="intro">A few intro sentences here maybe? </section>
 
 			<div class="row">
                 <h2>Classes</h2>
@@ -104,16 +106,7 @@
                         </ul>
                 </div>    
             </div>
-
-			<h3>Instructors</h3>
-
-			<p>Derek Jenkins: Derek is a Washington native and an experienced outdoorsman with many years hunting, fishing, skiing, canoeing, archery, shooting and minimalistic camping. His skillful mastery of bushcraft and wilderness survival knowledge helps define his character. He enjoys handcrafting his own long bows, flint knapped primitive arrows and making custom leather products.</p>
-            
-	       <p>Amy Smith: Amy truly has a passion for archery. She comes from a long line of hunters, fisherman, and trappers of Canada. Amy  places a strong emphasis on safety and is enthusiastic about teaching. Amy also loves fitness, and  has been a YMCA group exercise and personal trainer for over 18 years.</p>
-            
-	       <p>Nathan Lee: Nathan is an USA Archery Certified Level 3 NTS – Coach and has been teaching archery since 2009. He has been interested in archery since he nocked his first arrow while a Boy Scout at Scout camp. Nathan has many years of experience teaching people of all ages, experience gained as a Martial Arts Instructor and Studio Manager.</p>
-		</div>
-
+            </div>
 		<aside class="col sidebar">
 
 			<h2>Images Sidebar</h2> 
@@ -121,22 +114,33 @@
 
 			<article class="row">
 				<div class="col info">
-					<h4>Image 1</h4>
-					<img src="#">
+					<h4>Class 1</h4>
+					<img class="sidebarimg" src="images/class1.jpg">
 				</div>
             </article>
             <article class="row">
 				<div class="col info">
-					<h4>Image 2</h4>
-					<img src="#">
+					<h4>Class 2</h4>
+					<img class="sidebarimg" src="images/class2.jpg">
+				</div>
+            </article>
+            <article class="row">
+				<div class="col info">
+					<h4>Lesson 1</h4>
+					<img class="sidebarimg" src="images/lesson1.jpg">
+				</div>
+            </article>
+            <article class="row">
+				<div class="col info">
+					<h4>Lessons 2</h4>
+					<img class="sidebarimg" src="images/lesson2.jpg">
 				</div>
             </article>
 		</aside>
 	</div>
     <footer>
-        <p>Straight to the Point Archery</p>
-  <p>Address:528 Nock Point Ln Tacoma, WA 98412 | Ph:(253)555-1010 | <a href="mailto:archery-education@example.com">archery-education@example.com</a>.</p>
-</footer>
+      <h5>Straight to the Point Archery | (253)555-1010 | <a class="link 2" href="#">archery-education@example.com</a> | 528 Nock Point Ln Tacoma, WA 98412 | Copyright 2018 Straight to the Point Archery LLC</h5>
+    </footer>
 </div>
 </body>
 </html>
