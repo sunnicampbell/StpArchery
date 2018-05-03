@@ -17,8 +17,8 @@
 /*Global Settings*/
 
 html { 
-  font-size: 20px; 
-  font-family: 'Slabo 27px', serif;
+  font-size: 15px; 
+  font-family: 'Poppins', sans-serif;
   background-color: #9FAEB3;
   height: 100%;
   width: 100%;
@@ -59,8 +59,8 @@ nav a{
     color: black;
 }
 .logo{
-  height: 5em;
-  width: 5em;
+  height: 6em;
+  width: 6em;
   float: left;
 }
 a:hover {
