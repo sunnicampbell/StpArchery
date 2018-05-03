@@ -40,18 +40,15 @@ nav {
 nav a{
   color: white;
   padding-left: 2rem;
-  padding-right; 2rem;
   margin-right: 2em;
 }
 .homeimg1 {
     width:30em;
     height: 20em;
-    display: inline-flex;
 }
 .homeimg2 {
     width:30em;
     height: 20em;
-    display: inline-flex;
 }
 .brand {
     text-align: left;
@@ -64,8 +61,7 @@ nav a{
   float: left;
 }
 a:hover {
-  color:lightcoral;
-  transition: all 2s ease 0s;
+  color:firebrick;
 }
 .sidebarimg {
     height: 10em;
@@ -134,95 +130,3 @@ h3{
 .word4{
   margin:1rem;
 }
-
-/*
-/*p{
-  margin-left: 2rem;
-  margin-right: 2rem;
-}
-
-.container{
-  display: inline-flex;
-}
-nav {
-  background-color: darkgrey;
-  text-align: center; 
-  padding: 1rem;
-  list-style: none;
-}
-
-nav a{
-  color: purple;
-  padding-left: 2rem;
-  padding-right; 2rem;
-}
-
-h6 {
-  text-align: center;
-  margin:0;
-  background-color: PaleTurquoise;
-}
-
-/*Home page*/
-
-/*nav {
-  background-color: #333;
-  height: 4rem;
-  margin: 0;
-  overflow: hidden;
-}
-
-nav ul li {
-  display: inline-block;
-  color: white;
-  margin-right: 2rem;
-}
-
-nav ul li a {
-  color: white;
-  display: block;
-  line-height: 2em;
-  text-decoration: none;
-}
-
-nav ul li a:hover {
-  color: #bfebff;
-  text-decoration: underline;
-}
-
-img {
-  padding-top: 20px;
-}
-section {
-  line-height: 0.15rem;
-}
-footer p {
-  font-size: 0.85rem;
-}
-
-/*html { 
-  font-size: 20px; 
-  font-family: 'Slabo 27px', serif;
-  background-color: LavenderBlush;
-  height: 100%;
-  width: 100%;
-}
-
-a:hover {
-  color:lightcoral;
-  transition: all 2s ease 0s;
-}
-
-.head{
-  display: inline-flex;
-}
-
-h1{
-  text-align: center;
-  margin: 2rem;
-}
-
-h2{
-  text-align: center;
-}*/
-
